@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-print-css",
+  "version": "1.0.0",
+  "description": "Print Stylesheet for Bootstrap 5",
+  "keywords": [
+    "bootstrap",
+    "print",
+    "stylesheet"
+  ],
+  "homepage": "https://github.com/coliff/bootstrap-print-css",
+  "bugs": {
+    "url": "https://github.com/coliff/bootstrap-print-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/bootstrap-print-css.git"
+  },
+  "license": "MIT",
+  "files": [
+    "css/*",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "author": "Christian Oliff (https://christianoliff.com)",
+  "scripts": {
+    "css": "npm run css-lint && npm run css-minify",
+    "css-lint": "stylelint \"css/bootstrap-print.css\"",
+    "css-minify": "cleancss -O1 --format breakWith=lf --output css/bootstrap-print.min.css css/bootstrap-print.css",
+    "test": "npm run css-lint"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-twbs-bootstrap": "^2.2.1"
+  }
+}
