@@ -19,9 +19,6 @@
     border: 1px solid #adb5bd;
     page-break-inside: avoid;
   }
-  thead {
-    display: table-header-group;
-  }
   tr,
   img {
     page-break-inside: avoid;
@@ -44,9 +41,6 @@
   }
   .container {
     min-width: 992px !important;
-  }
-  .navbar {
-    display: none;
   }
   .badge {
     border: 1px solid #000;
