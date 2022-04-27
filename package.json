@@ -30,8 +30,8 @@
     "test": "npm run css-lint"
   },
   "devDependencies": {
-    "clean-css-cli": "^5.3.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-twbs-bootstrap": "^2.2.1"
+    "clean-css-cli": "^5.6.0",
+    "stylelint": "^14.8.0",
+    "stylelint-config-twbs-bootstrap": "^3.0.1"
   }
 }
