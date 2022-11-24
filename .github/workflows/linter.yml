@@ -8,8 +8,12 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: read #  to fetch code (actions/checkout)
+      statuses: write #  to mark status of each linter run (github/super-linter/slim)
     name: Lint Code Base
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout Code
@@ -19,6 +23,10 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: /
+          LOG_LEVEL: NOTICE
+          SUPPRESS_POSSUM: true
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_MARKDOWN: false
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
