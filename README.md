@@ -1,7 +1,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/bootstrap-print-css/master/LICENSE)
 [![GitHub Super-Linter](https://github.com/coliff/bootstrap-print-css/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
-[![GitHub Stars](https://img.shields.io/github/stars/coliff/bootstrap-print-css.svg?label=github%20stars)](https://github.com/coliff/bootstrap-print-css)
-[![NPM Version](https://img.shields.io/npm/v/bootstrap-print-css)](https://www.npmjs.com/package/bootstrap-print-css)
+[![GitHub Stars](https://img.shields.io/github/stars/coliff/bootstrap-print-css.svg?label=GitHub%20stars)](https://github.com/coliff/bootstrap-print-css)
+[![npm Version](https://img.shields.io/npm/v/bootstrap-print-css)](https://www.npmjs.com/package/bootstrap-print-css)
 
 # Bootstrap Print CSS 🖨️
 
@@ -12,9 +12,10 @@ Note: This should improve the experience when printing, but there are [bugs and 
 ## Quick Start
 
 - [Download the latest release](https://github.com/coliff/bootstrap-print-css/)
-- Clone the repo `git clone https://github.com/coliff/bootstrap-print-css.git`
+- Clone the repository `git clone https://github.com/coliff/bootstrap-print-css.git`
 - Install with [npm](https://www.npmjs.com/package/bootstrap-print-css) `npm install bootstrap-print-css`
-- Install with [yarn](https://yarnpkg.com/package/bootstrap-print-css) `yarn add bootstrap-print-css`
+- Install with [Yarn](https://yarnpkg.com/package/bootstrap-print-css) `yarn add bootstrap-print-css`
+- Install with [Composer](https://packagist.org/packages/coliff/bootstrap-print-css) `composer require coliff/bootstrap-print-css`
 
 ## Usage
 

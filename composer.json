@@ -1,0 +1,17 @@
+{
+  "name": "coliff/bootstrap-print-css",
+  "description": "Bootstrap 5 Print Stylesheet",
+  "license": "MIT",
+  "homepage": "https://github.com/coliff/bootstrap-print-css#readme",
+  "authors": [
+    {
+      "name": "Christian Oliff",
+      "homepage": "https://christianoliff.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/coliff/bootstrap-print-css/issues",
+    "docs": "https://github.com/coliff/bootstrap-print-css#readme"
+  }
+}
