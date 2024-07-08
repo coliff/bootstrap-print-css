@@ -25,13 +25,13 @@
   "author": "Christian Oliff (https://christianoliff.com)",
   "scripts": {
     "css": "npm run css-lint && npm run css-minify",
-    "css-lint": "stylelint \"css/bootstrap-print.css\"",
+    "css-lint": "stylelint \"css/bootstrap-print.css\" -f verbose --fix",
     "css-minify": "cleancss -O1 --format breakWith=lf --output css/bootstrap-print.min.css css/bootstrap-print.css",
     "test": "npm run css-lint"
   },
   "devDependencies": {
-    "clean-css-cli": "^5.6.2",
-    "stylelint": "^15.10.3",
-    "stylelint-config-twbs-bootstrap": "^11.0.1"
+    "clean-css-cli": "5.6.3",
+    "stylelint": "16.6.1",
+    "stylelint-config-twbs-bootstrap": "14.2.0"
   }
 }
