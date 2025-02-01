@@ -32,6 +32,6 @@
   "devDependencies": {
     "clean-css-cli": "5.6.3",
     "stylelint": "16.6.1",
-    "stylelint-config-twbs-bootstrap": "14.2.0"
+    "stylelint-config-twbs-bootstrap": "15.1.0"
   }
 }
