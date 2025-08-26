@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "words": [
+    "cleancss",
+    "oliff",
+    "stylesheet",
+    "twbs"
+  ],
+  "language": "en-US",
+  "allowCompoundWords": true,
+  "useGitignore": true
+}
