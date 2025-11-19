@@ -1,0 +1,29 @@
+name: Check spelling
+
+on:
+  push:
+    branches-ignore:
+      - dependabot/**
+  pull_request: null
+
+permissions:
+  contents: read
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
+        with:
+          persist-credentials: false
+
+      - uses: streetsidesoftware/cspell-action@3294df585d3d639e30f3bc019cb11940b9866e95
+        with:
+          incremental_files_only: true
+          inline: warning
+          strict: false
+          suggestions: true

@@ -2,9 +2,13 @@
   "version": "0.2",
   "words": [
     "cleancss",
+    "coliff",
     "oliff",
+    "ossf",
+    "sarif",
     "stylesheet",
-    "twbs"
+    "twbs",
+    "ZIZMOR"
   ],
   "language": "en-US",
   "allowCompoundWords": true,
